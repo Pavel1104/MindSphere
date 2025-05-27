@@ -1,10 +1,12 @@
-import { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  i18n: {
-    locales: ["ua", "ru", "pl", "en"], // Доступні локалі
-    defaultLocale: "ua",
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    middlewarePrefetch: "strict", // Забезпечує коректне виконання Middleware
   },
+
+  // eslint: {
+  //   ignoreDuringBuilds: true, // Уникає помилок ESLint під час збірки
+  // },
 };
 
 export default nextConfig;
