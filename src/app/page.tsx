@@ -17,7 +17,6 @@ export default function Home() {
 
       {/* Language Switcher */}
       <div className="mt-6 space-x-4">
-        <p>indennjnjknjx</p>
         <button onClick={() => changeLanguage("ua")} className="px-4 py-2 bg-blue-500 text-white rounded">🇺🇦 Українська</button>
         <button onClick={() => changeLanguage("en")} className="px-4 py-2 bg-gray-500 text-white rounded">🇬🇧 English</button>
         <button onClick={() => changeLanguage("ru")} className="px-4 py-2 bg-red-500 text-white rounded">🇷🇺 Русский</button>
