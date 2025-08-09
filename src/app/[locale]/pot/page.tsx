@@ -1,9 +1,9 @@
 'use client';
 import { usePathname, useRouter } from 'next/navigation';
-import en from '../../../locales/en.json';
-import ru from '../../../locales/ru.json';
-import ua from '../../../locales/ua.json';
-import pl from '../../../locales/pl.json';
+import en from '../../../i18n/locales/en.json';
+import ru from '../../../i18n/locales/ru.json';
+import ua from '../../../i18n/locales/ua.json';
+import pl from '../../../i18n/locales/pl.json';
 
 type Locale = 'en' | 'ru' | 'ua' | 'pl';
 
