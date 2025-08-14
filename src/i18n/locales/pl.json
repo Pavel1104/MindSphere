@@ -5,12 +5,15 @@
     "signInWithGoogle": "Zaloguj się przez Google",
     "signOut": "Wyloguj się"
   },
-  "navbar": {
-    "home": "Strona główna",
-    "calculation": "Obliczenia",
-    "pot": "Garniec",
-    "shadowPortrait": "Portret cienia"
-  },
+"navbar": {
+  "home": "Strona główna",
+  "numerology": {
+    "title": "Numerologia",
+    "calculator": "Kalkulator",
+    "pot": "Garnek",
+    "shadowPortrait": "Cieniowy portret"
+  }
+},
   "taroCards": {
     "1": "Mag",
     "2": "Kapłanka",

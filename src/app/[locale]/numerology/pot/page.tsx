@@ -1,17 +1,20 @@
 'use client';
 import { usePathname, useRouter } from 'next/navigation';
-import en from '../../../i18n/locales/en.json';
-import ru from '../../../i18n/locales/ru.json';
-import ua from '../../../i18n/locales/ua.json';
-import pl from '../../../i18n/locales/pl.json';
+import en from '@/i18n/locales/en.json';
+import ru from '@/i18n/locales/ru.json';
+import ua from '@/i18n/locales/ua.json';
+import pl from '@/i18n/locales/pl.json';
 
 type Locale = 'en' | 'ru' | 'ua' | 'pl';
 
 interface Translations {
   navbar: {
-    pot: string;
-    calculation: string;
     home: string;
+    numerology: {
+      title: string;
+      pot: string;
+      calculator: string;
+    };
   };
 }
 
@@ -36,8 +39,8 @@ export default function Header() {
       <h1>MindSphere</h1>
       <nav>
         <a href={`/${locale}`}>{t.navbar.home}</a>
-        <a href={`/${locale}/pot`}>{t.navbar.pot}</a>
-        <a href={`/${locale}/calculation`}>{t.navbar.calculation}</a>
+        <a href={`/${locale}/numerology/pot`}>{t.navbar.numerology.pot}</a>
+        <a href={`/${locale}/numerology/calculator`}>{t.navbar.numerology.calculator}</a>
       </nav>
       <select value={locale} onChange={(e) => handleLocaleChange(e.target.value as Locale)}>
         {locales.map((lang) => (

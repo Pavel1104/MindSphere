@@ -5,12 +5,15 @@
     "signInWithGoogle": "Sign in with Google",
     "signOut": "Sign out"
   },
-  "navbar": {
-    "home": "Home",
-    "calculation": "Calculation",
+"navbar": {
+  "home": "Home",
+  "numerology": {
+    "title": "Numerology",
+    "calculator": "Calculator",
     "pot": "Pot",
     "shadowPortrait": "Shadow Portrait"
-  },
+  }
+},
   "taroCards": {
     "1": "Magician",
     "2": "High Priestess",

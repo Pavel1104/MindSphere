@@ -5,12 +5,15 @@
     "signInWithGoogle": "Войти с Google",
     "signOut": "Выйти"
   },
-  "navbar": {
-    "home": "Домашняя",
-    "calculation": "Расчёт",
+"navbar": {
+  "home": "Домашняя",
+  "numerology": {
+    "title": "Нумерология",
+    "calculator": "Калькулятор",
     "pot": "Горшок",
     "shadowPortrait": "Теневой портрет"
-  },
+  }
+},
   "taroCards": {
     "1": "Маг",
     "2": "Жрица",

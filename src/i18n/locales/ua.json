@@ -7,9 +7,12 @@
   },
   "navbar": {
     "home": "Домашня",
-    "calculation": "Розрахунок",
-    "pot": "Горщик",
-    "shadowPortrait": "Тіньовий портрет"
+    "numerology": {
+      "title": "Нумерологія",
+      "calculator": "Розрахунок",
+      "pot": "Горщик",
+      "shadowPortrait": "Тіньовий портрет"
+    }
   },
   "taroCards": {
     "1": "Маг",
