@@ -1,6 +1,7 @@
 import I18nProvider from '@/components/I18nProvider';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import '@/app/globals.css';
 
 export default function RootLayout({
   children,
@@ -9,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ua">
-      <body>
+      <body className="bg-gray-50">
         <I18nProvider>
           <Header />
           <main>{children}</main>

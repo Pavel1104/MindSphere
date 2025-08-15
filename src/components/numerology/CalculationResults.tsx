@@ -13,7 +13,7 @@ export default function CalculationResults({ data }: CalculationResultsProps) {
 
   return (
     <div className="font-mono">
-      <h2 className="text-xl font-bold mb-6 text-gray-800">
+      <h2 className="text-xl font-bold mb-6 text-gray-900">
         Результати розрахунків:
       </h2>
 
@@ -21,15 +21,15 @@ export default function CalculationResults({ data }: CalculationResultsProps) {
         {data.map((item) => (
           <div
             key={item.id}
-            className="flex items-center justify-between bg-white p-4 rounded-lg shadow-sm border"
+            className="flex items-center justify-between bg-white p-4 rounded-xl shadow-md border border-gray-200 transition-all duration-300 hover:shadow-lg"
           >
-            <span className="font-bold text-gray-700 w-20">
+            <span className="font-semibold text-gray-900 w-20 text-sm md:text-base">
               {t(`numerology.positions.${item.id}`, item.id.toUpperCase())}
             </span>
-            <span className="text-right text-gray-900 w-12">
+            <span className="text-right text-gray-900 text-lg font-bold w-12">
               {item.value}
             </span>
-            <span className="font-bold text-gray-600 w-20 text-right">
+            <span className="font-normal text-gray-800 w-20 text-right text-sm md:text-base">
               {romanize(item.value)}
             </span>
           </div>
